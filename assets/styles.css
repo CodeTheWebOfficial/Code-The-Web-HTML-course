@@ -1,0 +1,77 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    width: 25px;
+}
+
+body {
+    margin: 5px;
+    padding: 5px;
+    background-color: #eee;
+    letter-spacing: 0.4px;
+    height: 900px;
+}
+
+button {
+    background: rgb(240, 240, 240);
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    z-index: 3;
+    
+}
+
+p {
+    font-family: 'Roboto';
+    padding: 2px;
+    margin-top: 35px;
+    position: absolute;
+    background-color: #eee
+}
+
+.sample {
+    font-family: 'Roboto';
+    padding: 2px;
+    margin-top: 35px;
+    position: absolute;
+    top: 250px;
+}
+
+.bg-img {
+    height: 250px;
+    position: fixed;
+    right: 45%;
+}
+
+.forest {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 100%;
+}
+
+.forest-text {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 95%;
+}
+
+h3 {
+    font-family: 'Roboto';
+    position: absolute;
+    background-color: #eee
+}
